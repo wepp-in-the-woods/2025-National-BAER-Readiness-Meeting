@@ -7,141 +7,319 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-yogH5qG1D6kxZbDzQ3xjZmUqQm34tcywP9xsO+Q0pR3g6KY20NckvGiDyvFOKc8I" crossorigin="anonymous">
   <style>
-    body {font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;}
-    .agenda-table th, .agenda-table td {vertical-align: top;}
-    .agenda-section {margin-top: 2rem;}
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; background-color: #f8f9fa; }
+    .agenda-table th, .agenda-table td { vertical-align: top; }
+    .agenda-section { margin-top: 2rem; }
   </style>
 </head>
 <body>
-  <div class="container py-4">
-    <header class="text-center mb-5">
-      <h1 class="display-5 fw-bold">2025 National Burned Area Emergency Response Readiness Meeting</h1>
-      <p class="lead mb-0">Forest Service Water Erosion Prediction Project, FSWEPP Suite of Tools</p>
-      <p class="mb-0">3-4 June 2025, Tuesday and Wednesday</p>
-      <p class="mb-0">Radisson Hotel, 215 West South Temple, Salt Lake City, Utah (hotel direct 385 354 5457)</p>
-      <p class="text-muted mt-2">AGENDA (Updated 16 MAY 2025)</p>
-    </header>
+  <div class="d-flex justify-content-center">
+    <div class="container col-lg-8 py-4 bg-white shadow-sm">
+      <header class="text-center mb-5">
+        <h1 class="display-5 fw-bold">2025 National Burned Area Emergency Response Readiness Meeting</h1>
+        <p class="lead mb-0">Forest Service Water Erosion Prediction Project, FSWEPP Suite of Tools</p>
+        <p class="mb-0">3-4 June 2025, Tuesday and Wednesday</p>
+        <p class="mb-0">Radisson Hotel, 215 West South Temple, Salt Lake City, Utah (hotel direct 385 354 5457)</p>
+        <p class="text-muted mt-2">AGENDA (Updated 16 MAY 2025)</p>
+      </header>
 
-    <section>
-      <h2 class="h4">Meeting Objectives</h2>
-      <p>Provide participants with knowledge and skills to perform advanced analysis using the Forest Service Suite of Water Erosion Prediction Project, FSWEPP Tools for wildfire emergencies.</p>
-    </section>
+      <section>
+        <h2 class="h4">Meeting Objectives</h2>
+        <p>Provide participants with knowledge and skills to perform advanced analysis using the Forest Service Suite of Water Erosion Prediction Project, FSWEPP Tools for wildfire emergencies.</p>
+      </section>
 
-    <section class="agenda-section">
-      <h3 class="h4">Monday, 2 June 2025 &mdash; Travel to Salt Lake City</h3>
-    </section>
+      <section class="agenda-section">
+        <h3 class="h5">Monday, 2 June 2025 &mdash; Travel to Salt Lake City</h3>
+      </section>
 
-    <!-- Tuesday Morning -->
-    <section class="agenda-section">
-      <h3 class="h4">Tuesday, 3 June 2025 &mdash; Morning</h3>
-      <div class="table-responsive">
-        <table class="table table-striped agenda-table">
-          <tbody>
-            <tr><td>800-815</td><td>Welcome and introductions</td><td>Cara Sponaugle; Dave Callery</td></tr>
-            <tr><td>815-830</td><td>Outline for workshop</td><td>Pete Robichaud</td></tr>
-            <tr><td>830-845</td><td>Why and when do we model post-fire hydrology and erosion risk?</td><td>Cara Sponaugle, Dave Callery, Brendan Waterman</td></tr>
-            <tr><td>845-900</td><td>FSWEPP Suite of Tools; How did we get here?</td><td>Pete Robichaud</td></tr>
-            <tr><td>900-945</td><td>Physical-based models: What they can and can’t do, Compare to others SWAT, Wildcat-curve number, USGS Regression, RUSLE</td><td>Erin Brooks</td></tr>
-            <tr><td>945-1000</td><td>WEPPcloud: Quick Start, Examples, YouTube</td><td>Mariana Dobre</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Break (1000-1015)</td></tr>
-            <tr><td>1015-1100</td><td>ERMiT and ERMiT Batch</td><td>Pete Robichaud, Scott Sheppard</td></tr>
-            <tr><td>1100-1145</td><td>ERMiT - Field Lightning Talks</td><td>Field Participants</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Lunch (1145-1300)</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      <!-- Tuesday Morning -->
+      <section class="agenda-section">
+        <h3 class="h5">Tuesday, 3 June 2025 &mdash; Morning</h3>
+        <div class="table-responsive">
+          <table class="table table-striped agenda-table">
+            <tbody>
+              <tr>
+                <td class="fw-bold">800-815</td>
+                <td>
+                  <em>Welcome and introductions</em>
+                  <div class="text-muted">Cara Sponaugle; Dave Callery</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">815-830</td>
+                <td>
+                  <em>Outline for workshop</em>
+                  <div class="text-muted">Pete Robichaud</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">830-845</td>
+                <td>
+                  <em>Why and when do we model post-fire hydrology and erosion risk?</em>
+                  <div class="text-muted">Cara Sponaugle, Dave Callery, Brendan Waterman</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">845-900</td>
+                <td>
+                  <em>FSWEPP Suite of Tools; How did we get here?</em>
+                  <div class="text-muted">Pete Robichaud</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">900-945</td>
+                <td>
+                  <em>Physical-based models: What they can and can’t do, Compare to others SWAT, Wildcat-curve number, USGS Regression, RUSLE</em>
+                  <div class="text-muted">Erin Brooks</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">945-1000</td>
+                <td>
+                  <em>WEPPcloud: Quick Start, Examples, YouTube</em>
+                  <div class="text-muted">Mariana Dobre</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Break (1000-1015)</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1015-1100</td>
+                <td>
+                  <em>ERMiT and ERMiT Batch</em>
+                  <div class="text-muted">Pete Robichaud, Scott Sheppard</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1100-1145</td>
+                <td>
+                  <em>ERMiT - Field Lightning Talks</em>
+                  <div class="text-muted">Field Participants</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Lunch (1145-1300)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <!-- Tuesday Afternoon -->
-    <section class="agenda-section">
-      <h3 class="h4">Tuesday, 3 June 2025 &mdash; Afternoon</h3>
-      <div class="table-responsive">
-        <table class="table table-striped agenda-table">
-          <tbody>
-            <tr><td rowspan="4">1300-1345</td><td>Introduction to WEPPcloud:</td><td rowspan="4">Mariana Dobre, Roger Lew</td></tr>
-            <tr><td>SBS map, channels, outlet, soils</td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td>1345-1415</td><td>Climate Tool Selection: which one?</td><td>Anurag Srivastava</td></tr>
-            <tr><td>1415-1515</td><td>WEPP Under the Hood: What are the big knobs and little knobs? Appropriate scale? Channels?</td><td>Erin Brooks</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Break (1515-1530)</td></tr>
-            <tr><td>1530-1600</td><td>Results and Interpretations: base, lateral flows return period, Info for BAER report, export maps</td><td>Scott Sheppard</td></tr>
-            <tr><td>1600-1630</td><td>Open (more details)</td><td>All</td></tr>
-            <tr><td>1630-1700</td><td>WEPPcloud questions from the field</td><td>Dave Callery, Brendan Waterman</td></tr>
-            <tr><td>1700-1730</td><td>JeopBAERdy</td><td>Sarah Lewis-Scholes, Pete Robichaud</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      <!-- Tuesday Afternoon -->
+      <section class="agenda-section">
+        <h3 class="h5">Tuesday, 3 June 2025 &mdash; Afternoon</h3>
+        <div class="table-responsive">
+          <table class="table table-striped agenda-table">
+            <tbody>
+              <tr>
+                <td class="fw-bold">1300-1345</td>
+                <td>
+                  <em>Introduction to WEPPcloud: SBS map, channels, outlet, soils</em>
+                  <div class="text-muted">Mariana Dobre, Roger Lew</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1345-1415</td>
+                <td>
+                  <em>Climate Tool Selection: which one?</em>
+                  <div class="text-muted">Anurag Srivastava</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1415-1515</td>
+                <td>
+                  <em>WEPP Under the Hood: What are the big knobs and little knobs? Appropriate scale? Channels?</em>
+                  <div class="text-muted">Erin Brooks</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Break (1515-1530)</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1530-1600</td>
+                <td>
+                  <em>Results and Interpretations: base, lateral flows return period, Info for BAER report, export maps</em>
+                  <div class="text-muted">Scott Sheppard</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1600-1630</td>
+                <td>
+                  <em>Open (more details)</em>
+                  <div class="text-muted">All</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1630-1700</td>
+                <td>
+                  <em>WEPPcloud questions from the field</em>
+                  <div class="text-muted">Dave Callery, Brendan Waterman</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1700-1730</td>
+                <td>
+                  <em>JeopBAERdy</em>
+                  <div class="text-muted">Sarah Lewis-Scholes, Pete Robichaud</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <!-- Wednesday Morning -->
-    <section class="agenda-section">
-      <h3 class="h4">Wednesday, 4 June 2025 &mdash; Morning</h3>
-      <div class="table-responsive">
-        <table class="table table-striped agenda-table">
-          <tbody>
-            <tr><td>800-815</td><td>Recap of 1st day</td><td>Cara Sponaugle, Pete Robichaud</td></tr>
-            <tr><td>815-845</td><td>WEPPcloud - Tricks and Tips</td><td>Roger Lew, Mariana Dobre</td></tr>
-            <tr><td rowspan="2">845-930</td><td>Advanced User Options:<br>Land use, soils, channels, flow paths, frost, snow, baseflow</td><td rowspan="2">Erin Brooks, Mariana Dobre, Anurag Srivastava, Roger Lew</td></tr>
-            <tr></tr>
-            <tr><td>930-1015</td><td>WEPPcloud - Field Lightning Talks</td><td>Field Participants</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Break (1015-1030)</td></tr>
-            <tr><td>1030-1115</td><td>Calibrate WEPPcloud with nearby USGS station</td><td>Mariana Dobre, Anurag Srivastava</td></tr>
-            <tr><td>1115-1145</td><td> Frequently Asked Questions</td><td>Erin Brooks, Mariana Dobre, Scott Sheppard</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Lunch (1145-1300)</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      <!-- Wednesday Morning -->
+      <section class="agenda-section">
+        <h3 class="h5">Wednesday, 4 June 2025 &mdash; Morning</h3>
+        <div class="table-responsive">
+          <table class="table table-striped agenda-table">
+            <tbody>
+              <tr>
+                <td class="fw-bold">800-815</td>
+                <td>
+                  <em>Recap of 1st day</em>
+                  <div class="text-muted">Cara Sponaugle, Pete Robichaud</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">815-845</td>
+                <td>
+                  <em>WEPPcloud - Tricks and Tips</em>
+                  <div class="text-muted">Roger Lew, Mariana Dobre</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">845-930</td>
+                <td>
+                  <em>Advanced User Options: Land use, soils, channels, flow paths, frost, snow, baseflow</em>
+                  <div class="text-muted">Erin Brooks, Mariana Dobre, Anurag Srivastava, Roger Lew</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">930-1015</td>
+                <td>
+                  <em>WEPPcloud - Field Lightning Talks</em>
+                  <div class="text-muted">Field Participants</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Break (1015-1030)</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1030-1115</td>
+                <td>
+                  <em>Calibrate WEPPcloud with nearby USGS station</em>
+                  <div class="text-muted">Mariana Dobre, Anurag Srivastava</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1115-1145</td>
+                <td>
+                  <em>Frequently Asked Questions</em>
+                  <div class="text-muted">Erin Brooks, Mariana Dobre, Scott Sheppard</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Lunch (1145-1300)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <!-- Wednesday Afternoon -->
-    <section class="agenda-section">
-      <h3 class="h4">Wednesday, 4 June 2025 &mdash; Afternoon</h3>
-      <div class="table-responsive">
-        <table class="table table-striped agenda-table">
-          <tbody>
-            <tr><td>1300-1400</td><td>Advanced Outputs: PI-VAT, Deval in the Details Report, Viz-WEPPcloud, WEPPeval</td><td>Erin Brooks, Mariana Dobre, Anurag Srivastava</td></tr>
-            <tr><td>1400-1445</td><td>Single storm analysis  Pre- and Post</td><td>Scott Sheppard</td></tr>
-            <tr><td>1445-1515</td><td>Erosion outputs – ERMiT Batch vs WEPPcloud</td><td>Erin Brooks, Pete Robichaud</td></tr>
-            <tr class="table-secondary"><td colspan="3" class="text-center">Break (1515-1530)</td></tr>
-            <tr><td>1530-1545</td><td>Informing BAER risk determinations</td><td>Dave Callery, Scott Sheppard, Brendan Waterman</td></tr>
-            <tr><td>1545-1615</td><td>Non-BAER tools: Wildfire Ash Load Map, WATAR (Wildfire Ash Transport and Risk), WEPPcloud-Revegetation, WEPPcloud PUFF</td><td>Anurag Srivastava, Sarah Lewis-Scholes, Mariana Dobre</td></tr>
-            <tr><td>1615-1645</td><td>What if? Questions from the field and potential collaboration points</td><td>Dave Callery, Brendan Waterman</td></tr>
-            <tr><td>1645-1700</td><td>Wrap Up</td><td>Cara Sponaugle, Pete Robichaud</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      <!-- Wednesday Afternoon -->
+      <section class="agenda-section">
+        <h3 class="h5">Wednesday, 4 June 2025 &mdash; Afternoon</h3>
+        <div class="table-responsive">
+          <table class="table table-striped agenda-table">
+            <tbody>
+              <tr>
+                <td class="fw-bold">1300-1400</td>
+                <td>
+                  <em>Advanced Outputs: PI-VAT, Deval in the Details Report, Viz-WEPPcloud, WEPPeval</em>
+                  <div class="text-muted">Erin Brooks, Mariana Dobre, Anurag Srivastava</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1400-1445</td>
+                <td>
+                  <em>Single storm analysis  Pre- and Post</em>
+                  <div class="text-muted">Scott Sheppard</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1445-1515</td>
+                <td>
+                  <em>Erosion outputs – ERMiT Batch vs WEPPcloud</em>
+                  <div class="text-muted">Erin Brooks, Pete Robichaud</div>
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <td colspan="2" class="text-center">Break (1515-1530)</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1530-1545</td>
+                <td>
+                  <em>Informing BAER risk determinations</em>
+                  <div class="text-muted">Dave Callery, Scott Sheppard, Brendan Waterman</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1545-1615</td>
+                <td>
+                  <em>Non-BAER tools: Wildfire Ash Load Map, WATAR (Wildfire Ash Transport and Risk), WEPPcloud-Revegetation, WEPPcloud PUFF</em>
+                  <div class="text-muted">Anurag Srivastava, Sarah Lewis-Scholes, Mariana Dobre</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1615-1645</td>
+                <td>
+                  <em>What if? Questions from the field and potential collaboration points</em>
+                  <div class="text-muted">Dave Callery, Brendan Waterman</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">1645-1700</td>
+                <td>
+                  <em>Wrap Up</em>
+                  <div class="text-muted">Cara Sponaugle, Pete Robichaud</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <section class="agenda-section">
-      <h3 class="h4">Thursday, 5 June 2025 &mdash; Travel to home units</h3>
-    </section>
+      <section class="agenda-section">
+        <h3 class="h5">Thursday, 5 June 2025 &mdash; Travel to home units</h3>
+      </section>
 
-    <section class="agenda-section">
-      <h2 class="h4">Additional Information</h2>
-      <h3 class="h5">Instructors:</h3>
-      <ul>
-        <li>Dr. Pete Robichaud, Research Engineer, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. FSWEPP developer, field data collection, validation. peter.robichaud@usda.gov</li>
-        <li>Dr. Erin Brooks, Professor, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. Hydrologic processes, model development. ebrooks@uidaho.edu</li>
-        <li>Dr. Mariana Dobre, Research Assistant Professor, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. Lead WEPP power user. mdobre@uidaho.edu</li>
-        <li>Dr. Roger Lew, Associate Research Professor, Virtual Technology and Design, University of Idaho. Model recoding, interface development.  rlew@uidaho.edu</li>
-        <li>Dr. Anurag Srivastava, Research Scholar, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. WEPP Developer. srivanu@uidaho.edu</li>
-        <li>Dr. Sarah Lewis-Scholes, Civil Engineer, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. Remote sensing soil burn severity, ash load mapping. Sarah.lewis-scholes@usda.gov</li>
-        <li>Brian “Scott” Sheppard, Hydrologist, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. BAER team Liaison/ interpretation. brian.sheppard@usda.gov</li>
-      </ul>
+      <section class="agenda-section">
+        <h2 class="h4">Additional Information</h2>
+        <h3 class="h5">Instructors:</h3>
+        <ul>
+          <li>Dr. Pete Robichaud, Research Engineer, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. FSWEPP developer, field data collection, validation. peter.robichaud@usda.gov</li>
+          <li>Dr. Erin Brooks, Professor, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. Hydrologic processes, model development. ebrooks@uidaho.edu</li>
+          <li>Dr. Mariana Dobre, Research Assistant Professor, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. Lead WEPP power user. mdobre@uidaho.edu</li>
+          <li>Dr. Roger Lew, Associate Research Professor, Virtual Technology and Design, University of Idaho. Model recoding, interface development. rlew@uidaho.edu</li>
+          <li>Dr. Anurag Srivastava, Research Scholar, Department of Soil & Water Systems, University of Idaho, Moscow Idaho. WEPP Developer. srivanu@uidaho.edu</li>
+          <li>Dr. Sarah Lewis-Scholes, Civil Engineer, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. Remote sensing soil burn severity, ash load mapping. Sarah.lewis-scholes@usda.gov</li>
+          <li>Brian “Scott” Sheppard, Hydrologist, USDA Forst Service Rocky Mountain Research Station, Moscow, Idaho. BAER team Liaison/ interpretation. brian.sheppard@usda.gov</li>
+        </ul>
 
-      <h3 class="h5">Important web pages:</h3>
-      <ul>
-        <li>Home page for Forest Service Water and Watersheds in Moscow — <a href="https://forest.moscowfsl.wsu.edu/">https://forest.moscowfsl.wsu.edu/</a></li>
-        <li>Home page of Forest Service FS WEPP Suite of Tools — <a href="https://forest.moscowfsl.wsu.edu/fswepp/">https://forest.moscowfsl.wsu.edu/fswepp/</a></li>
-        <li>Home page of WEPPcloud — <a href="https://wepp.cloud/weppcloud/">https://wepp.cloud/weppcloud/</a></li>
-        <li>Water and Watershed’s Library of publications — <a href="https://forest.moscowfsl.wsu.edu/library/">https://forest.moscowfsl.wsu.edu/library/</a></li>
-      </ul>
-    </section>
+        <h3 class="h5">Important web pages:</h3>
+        <ul>
+          <li>Home page for Forest Service Water and Watersheds in Moscow — <a href="https://forest.moscowfsl.wsu.edu/">https://forest.moscowfsl.wsu.edu/</a></li>
+          <li>Home page of Forest Service FS WEPP Suite of Tools — <a href="https://forest.moscowfsl.wsu.edu/fswepp/">https://forest.moscowfsl.wsu.edu/fswepp/</a></li>
+          <li>Home page of WEPPcloud — <a href="https://wepp.cloud/weppcloud/">https://wepp.cloud/weppcloud/</a></li>
+          <li>Water and Watershed’s Library of publications — <a href="https://forest.moscowfsl.wsu.edu/library/">https://forest.moscowfsl.wsu.edu/library/</a></li>
+        </ul>
+      </section>
 
-    <footer class="text-center mt-5 mb-3">
-      <small>&copy; 2025 National Burned Area Emergency Response Readiness Meeting</small>
-    </footer>
+      <footer class="text-center mt-5 mb-3 text-muted">
+        <small>&copy; 2025 National Burned Area Emergency Response Readiness Meeting</small>
+      </footer>
+    </div>
   </div>
 
   <!-- Bootstrap JS (optional) -->
